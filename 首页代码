@@ -1,0 +1,576 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+<link rel="stylesheet/less" type="text/css" href="../css/main.less"/>
+<link type="text/css" href="../css/pic.less" rel="stylesheet/less"/>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="../js/less.min.js"></script>
+<script type="text/javascript" src="../js/jpicture.js"></script>
+<script type="text/javascript" src="../js/alt.js"></script>
+<title></title>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta http-equiv="Content-Type" content="text/html;"/>
+</head>
+<body>
+<div class="header-top">
+	<div class="links">
+		<div class="right">
+			<a href="">发布项目</a>
+			<a href="">项目接包</a>
+			<a href="">找人才</a>
+			<a href="">找工作</a>
+			<a href="">登录</a>
+			<a href="">注册</a>
+		</div>
+		<a>在线咨询</a>
+	</div>
+</div>
+<div class="header-bd">
+	<img src="../images/header.jpg" alt="" />
+</div>
+<div class="menu">
+	<ul>
+		<li>
+			<a href="">首页</a>
+		</li>
+		<li>
+			<a href="">资讯中心</a>
+		</li>
+		<li>
+			<a href="">外包人才</a>
+		</li>
+		<li>
+			<a href="">外包项目</a>
+		</li>
+		<li>
+			<a href="">外包政策</a>
+		</li>
+		<li>
+			<a href="">融资服务</a>
+		</li>
+		<li>
+			<a href="">在线办公指南</a>
+		</li>
+	</ul>
+	<div class="search-box">
+		<input type="text" />
+		<a href="javascript:"><i class="icon-search"></i></a>
+	</div>
+</div>
+
+<div class="main-content">
+	<div class="news">
+		<div class="pics">
+			<ul>
+				<li>
+					<img src="../images/1.jpg" alt="" />
+					<p class="title">哈哈</p>
+				</li>
+				<li>
+					<img src="../images/2.jpg" alt="" />
+					<p class="title">哈哈2</p>
+				</li>
+			</ul>
+			<div class="circle"></div>
+		</div>
+		<div class="titles">
+			<ul>
+				<li>
+					<span class="tit">aaa</span>
+					<span class="date">2014-5-20</span>
+				</li>
+				<li>
+					<span class="tit">aaa</span>
+					<span class="date">2014-5-20</span>
+				</li>
+				<li>
+					<span class="tit">aaa</span>
+					<span class="date">2014-5-20</span>
+				</li>
+				<li>
+					<span class="tit">aaa</span>
+					<span class="date">2014-5-20</span>
+				</li>
+				<li>
+					<span class="tit">aaa</span>
+					<span class="date">2014-5-20</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="remommend" id = "tab_1">
+		<h3>推荐信息</h3>
+        <div id = "tab_2">
+		<ul class="tab">
+			<li class="active" id="one1" onclick="setTab('one',1)">热点资讯</li>
+			<li id="one2" onclick="setTab('one',2)">重要政策</li>
+			<li id="one3" onclick="setTab('one',3)">融资讯息</li>
+		</ul>
+        </div>
+		<ul class="article-list" id="con_one_1">
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+
+
+        <ul class="article-list" id="con_one_2">
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+
+
+        <ul class="article-list" id="con_one_3">
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">ccc</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+
+	</div>
+
+	<div class="hangye">
+		<h3>行业动态</h3>
+		<ul class="article-list">
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="scroll-img">
+		<div class="imgs">
+    		<ul class="piclist mainlist">
+				<li><img src="../images/1.jpg" alt=""/></li>
+				<li><img src="../images/1.jpg" alt=""/></li>
+				<li><img src="../images/1.jpg" alt=""/></li>
+				<li><img src="../images/1.jpg" alt=""/></li>
+				<li><img src="../images/1.jpg" alt=""/></li>
+				<li><img src="../images/1.jpg" alt=""/></li>
+                <li><img src="../images/1.jpg" alt=""/></li>
+				<li><img src="../images/1.jpg" alt=""/></li>
+			</ul>
+            <ul class="piclist swaplist"></ul>
+		</div>
+        <div class="go-left"></div>
+		<div class="go-right"></div>
+    </div>
+
+	<div class="hangye rec-project">
+		<h3>推荐项目</h3>
+		<ul class="article-list">
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="remommend qiye" id = "_tab_1">
+        <div id = "_tab_2">
+		<ul class="tab">
+			<li class="active" id="two1" onclick="setTab('two',1)">企业专栏</li>
+			<li id="two2" onclick="setTab('two',2)">培训机构</li>
+		</ul>
+        </div>
+        <ul class="article-list" id="con_two_1">
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+        <ul class="article-list" id="con_two_2">
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">bbb</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+      	</div>
+
+	<div class="hangye rencai">
+		<h3>推荐人才</h3>
+		<ul class="article-list">
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+			<li>
+				<span class="tit">aaa</span>
+				<span class="date">2014-5-20</span>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="location">
+	<ul>
+		<li>沙坪坝区</li>
+		<li>渝中区</li>
+		<li>南坪区</li>
+		<li>北部区</li>
+		<li>江北区</li>
+		<li>高新区</li>
+		<li>九龙坡区</li>
+		<li>大渡口区</li>
+		<li>北碚区</li>
+		<li>渝北区</li>
+	</ul>
+</div>
+
+<div class="friend-links">
+	<ul>
+		<li><img src="../images/1.jpg" alt="" /></li>
+		<li><img src="../images/1.jpg" alt="" /></li>
+		<li><img src="../images/1.jpg" alt="" /></li>
+		<li><img src="../images/1.jpg" alt="" /></li>
+		<li><img src="../images/1.jpg" alt="" /></li>
+	</ul>
+</div>
+
+<div class="footer">
+重庆市对外贸易经济委员会 版权所有 渝ICP备11005558号 电话: 023-89018799<br />
+© 2013-2013, All Rights Reserved.<br />
+重庆服务外包网: http://www.cqsourcing.gov.cn
+</div>
+<script type="text/javascript">
+	$(".pics ul").width($(".pics ul li").length*$(".pics ul li").width());
+	$(".scroll-img ul").width($(".scroll-img ul li").length*$(".scroll-img ul li").width());
+
+	for(var index=0;index < $(".pics ul li").length;index++){
+		$("<a class='item "+(index==0?"active":"")+"'></a>").appendTo($(".pics .circle")).click(function() {
+			/* Act on the event */
+			$(".pics ul li").eq($(this).index()).show().siblings().hide();
+			$(this).addClass('active').siblings().removeClass('active');
+		});;
+	}
+</script>
+</body>
+</html>
